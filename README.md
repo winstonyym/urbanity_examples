@@ -16,38 +16,38 @@ This repository provides a guide to getting started and implementing some of the
 
 First, clone this repository and the sample data files provided. The repository is organised as follows:
 
-📂urbanity
- ┣ 📂AGGREGATE_STATS
- ┃- ┗ bangkok_stats.csv
- ┃- ┗ bangkok_subzone_stats.csv
- ┃  ...
- ┣ 📂data
- ┃- ┗ new-york-latest.osm.pbf
- ┃- ┗ Seattle.osm.pbf
-    ...
- ┣ 📂figures
- ┃- ┗ output.png 
- ┃  ...
- ┣ 📂GUN
- ┃- ┗ bangkok100m.csv
- ┃- ┗ bangkok100m.geojson
- ┃- ┗ bangkok200m.csv
- ┃- ┗ bangkok200m.geojson
- ┃- ┗ chicago100m.csv
- ┃- ┗ chicago100m.geojson
- ┃- ┗ chicago200m.csv
- ┃- ┗ chicago200m.geojson
- ┃  ...
- ┣ 📂SHAPEFILES
- ┃- ┗ bangkok.geojson  
- ┃- ┗ seattle_subzones.geojson 
-    ... 
+📂urbanity <br/>
+ ┣ 📂AGGREGATE_STATS <br/>
+ ┃- ┗ bangkok_stats.csv <br/>
+ ┃- ┗ bangkok_subzone_stats.csv <br/>
+ ┃  ... <br/>
+ ┣ 📂data <br/>
+ ┃- ┗ new-york-latest.osm.pbf <br/>
+ ┃- ┗ Seattle.osm.pbf <br/>
+    ... <br/>
+ ┣ 📂figures <br/>
+ ┃- ┗ output.png  <br/>
+ ┃  ... <br/>
+ ┣ 📂GUN <br/>
+ ┃- ┗ bangkok100m.csv <br/>
+ ┃- ┗ bangkok100m.geojson <br/>
+ ┃- ┗ bangkok200m.csv <br/>
+ ┃- ┗ bangkok200m.geojson <br/>
+ ┃- ┗ chicago100m.csv <br/>
+ ┃- ┗ chicago100m.geojson <br/>
+ ┃- ┗ chicago200m.csv <br/>
+ ┃- ┗ chicago200m.geojson <br/>
+ ┃  ... <br/>
+ ┣ 📂SHAPEFILES <br/>
+ ┃- ┗ bangkok.geojson   <br/>
+ ┃- ┗ seattle_subzones.geojson  <br/>
+    ...  <br/>
 
-`AGGREGATE_STATS` provides computed aggregate indicators for cities and their subzones. 
-`data` is the location where downloaded osm.pbf files are stored.
-`figures` specifies where plots generated from notebook examples should be placed.  
-`GUN` provides pre-computed node and edge attribute features for various cities.
-`SHAPEFILES` includes some polygon shapefiles that were used to specify geographical boundaries.
+`AGGREGATE_STATS` provides computed aggregate indicators for cities and their subzones.  <br/>
+`data` is the location where downloaded osm.pbf files are stored. <br/>
+`figures` specifies where plots generated from notebook examples should be placed.   <br/>
+`GUN` provides pre-computed node and edge attribute features for various cities. <br/>
+`SHAPEFILES` includes some polygon shapefiles that were used to specify geographical boundaries. <br/>
 
 ### Step 1:
 Navigate to a location of choice (e.g., Desktop or project folder).
