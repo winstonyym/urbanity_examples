@@ -49,6 +49,7 @@ First, clone this repository and the sample data files provided. The repository 
 `GUN` provides pre-computed node and edge attribute features for various cities. <br/>
 `SHAPEFILES` includes some polygon shapefiles that were used to specify geographical boundaries. <br/>
 
+*Due to file storage limits, the Global Urban Network Dataset can be accessed separately at: [GUN Dataset](https://figshare.com/articles/dataset/Global_Urban_Network_Dataset/22124219).
 ### Step 1:
 Navigate to a location of choice (e.g., Desktop or project folder).
 
